@@ -1,0 +1,40 @@
+c:\users\farhan\documents\visual studio 2015\Projects\Final6s\Final6s\bin\roslyn\csc.exe
+c:\users\farhan\documents\visual studio 2015\Projects\Final6s\Final6s\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+c:\users\farhan\documents\visual studio 2015\Projects\Final6s\Final6s\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+c:\users\farhan\documents\visual studio 2015\Projects\Final6s\Final6s\bin\roslyn\Microsoft.CodeAnalysis.dll
+c:\users\farhan\documents\visual studio 2015\Projects\Final6s\Final6s\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+c:\users\farhan\documents\visual studio 2015\Projects\Final6s\Final6s\bin\roslyn\Microsoft.CSharp.Core.targets
+c:\users\farhan\documents\visual studio 2015\Projects\Final6s\Final6s\bin\roslyn\Microsoft.VisualBasic.Core.targets
+c:\users\farhan\documents\visual studio 2015\Projects\Final6s\Final6s\bin\roslyn\System.Collections.Immutable.dll
+c:\users\farhan\documents\visual studio 2015\Projects\Final6s\Final6s\bin\roslyn\System.Reflection.Metadata.dll
+c:\users\farhan\documents\visual studio 2015\Projects\Final6s\Final6s\bin\roslyn\vbc.exe
+c:\users\farhan\documents\visual studio 2015\Projects\Final6s\Final6s\bin\roslyn\VBCSCompiler.exe
+c:\users\farhan\documents\visual studio 2015\Projects\Final6s\Final6s\bin\roslyn\VBCSCompiler.exe.config
+c:\users\farhan\documents\visual studio 2015\Projects\Final6s\Final6s\bin\Final6s.dll.config
+c:\users\farhan\documents\visual studio 2015\Projects\Final6s\Final6s\bin\Final6s.dll
+c:\users\farhan\documents\visual studio 2015\Projects\Final6s\Final6s\bin\Final6s.pdb
+c:\users\farhan\documents\visual studio 2015\Projects\Final6s\Final6s\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\users\farhan\documents\visual studio 2015\Projects\Final6s\Final6s\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\users\farhan\documents\visual studio 2015\Projects\Final6s\Final6s\obj\Debug\Final6s.csprojResolveAssemblyReference.cache
+c:\users\farhan\documents\visual studio 2015\Projects\Final6s\Final6s\obj\Debug\Final6s.dll
+c:\users\farhan\documents\visual studio 2015\Projects\Final6s\Final6s\obj\Debug\Final6s.pdb
+C:\Users\FARHAN\OneDrive\Final6s\Final6s\bin\roslyn\csc.exe
+C:\Users\FARHAN\OneDrive\Final6s\Final6s\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\FARHAN\OneDrive\Final6s\Final6s\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\FARHAN\OneDrive\Final6s\Final6s\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\FARHAN\OneDrive\Final6s\Final6s\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\FARHAN\OneDrive\Final6s\Final6s\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\FARHAN\OneDrive\Final6s\Final6s\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\FARHAN\OneDrive\Final6s\Final6s\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\FARHAN\OneDrive\Final6s\Final6s\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\FARHAN\OneDrive\Final6s\Final6s\bin\roslyn\vbc.exe
+C:\Users\FARHAN\OneDrive\Final6s\Final6s\bin\roslyn\VBCSCompiler.exe
+C:\Users\FARHAN\OneDrive\Final6s\Final6s\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\FARHAN\OneDrive\Final6s\Final6s\bin\Final6s.dll.config
+C:\Users\FARHAN\OneDrive\Final6s\Final6s\bin\Final6s.dll
+C:\Users\FARHAN\OneDrive\Final6s\Final6s\bin\Final6s.pdb
+C:\Users\FARHAN\OneDrive\Final6s\Final6s\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\FARHAN\OneDrive\Final6s\Final6s\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\FARHAN\OneDrive\Final6s\Final6s\obj\Debug\Final6s.csprojResolveAssemblyReference.cache
+C:\Users\FARHAN\OneDrive\Final6s\Final6s\obj\Debug\Final6s.dll
+C:\Users\FARHAN\OneDrive\Final6s\Final6s\obj\Debug\Final6s.pdb

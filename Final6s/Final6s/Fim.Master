@@ -1,0 +1,128 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Fim.master.cs" Inherits="Final6s.Fim" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+
+</head>
+
+<body>
+
+    <form id="form1" runat="server">
+
+           	<header>
+               <html>
+<head>
+       <style> 
+           img { 
+    /*width:0%;*/ 
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ff0000;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.active {
+    background-color: #ffd800;
+     height: 75px;
+}
+
+li a:hover:not(.active) {
+    background-color: #000000;
+
+}
+           .auto-style1 {
+              width:1685px;
+                height: 75px;
+           }
+          
+    </style>
+</head>
+<body >
+
+<ul class="auto-style1">
+
+    <li><a class="active" href="Home.aspx"><br>Home</a></li>
+    <br>
+    <li><a href="AdminLogin.aspx">Admin</a></li>
+	<li><a href="CustRegistration.aspx">Customer</a></li>
+    <li><a href="EmpRegistration.aspx">Employee</a></li>
+    <li><a href="FrenchiseRegistration.aspx">Frenchise</a></li>
+    <li><a href="VechalRegistration.aspx">Vechile</a></li>
+
+
+ 
+</ul>
+
+</body>
+</html>
+
+			
+</header>
+
+
+
+    <div>
+
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+   
+         </div>
+
+        <footer >
+
+            
+<ul class="auto-style1">
+    
+    <li><a class="active" href="Home.aspx"><br>Home</a></li>
+    <br />
+    <li><a href="AdminLogin.aspx">Admin</a></li>
+	<li><a href="CustRegistration.aspx">Customer</a></li>
+    <li><a href="EmpRegistration.aspx">Employee</a></li>
+    <li><a href="FrenchiseRegistration.aspx">Frenchise</a></li>
+    <li><a href="VechalRegistration.aspx">Vechile</a></li>
+
+    	<%--<div class="auto-style1">--%>
+				
+					
+<%--					<div class="col-lg-6 col-md-6 col-sm-12 footer-links">--%>
+						<a href="Home.aspx">Home</a> /
+
+						<a href="FrenchiseRegistration.aspx">Frenchise</a> /
+						<a href="AdminLogin.aspx">Admin</a> /
+						
+				<%--	</div>
+				</div>
+ --%>
+</ul>
+		
+		</footer>
+
+
+
+
+
+    </form>
+</body>
+</html>
