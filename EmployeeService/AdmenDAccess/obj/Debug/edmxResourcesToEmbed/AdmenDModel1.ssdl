@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="s6finalModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="AdmenRegistration">
+    <Key>
+      <PropertyRef Name="AdId" />
+    </Key>
+    <Property Name="AdId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="AdName" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="AdCnic" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="AdEmail" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="AdPhone" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="AdPassword" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="AdAddress" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="s6finalModelStoreContainer">
+    <EntitySet Name="AdmenRegistration" EntityType="Self.AdmenRegistration" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

@@ -1,0 +1,10 @@
+C:\Users\FARHAN\documents\visual studio 2017\Projects\EmployeeService\FrenchiseDAccess\bin\Debug\FrenchiseDAccess.dll.config
+C:\Users\FARHAN\documents\visual studio 2017\Projects\EmployeeService\FrenchiseDAccess\bin\Debug\FrenchiseDAccess.dll
+C:\Users\FARHAN\documents\visual studio 2017\Projects\EmployeeService\FrenchiseDAccess\bin\Debug\FrenchiseDAccess.pdb
+C:\Users\FARHAN\documents\visual studio 2017\Projects\EmployeeService\FrenchiseDAccess\bin\Debug\EntityFramework.dll
+C:\Users\FARHAN\documents\visual studio 2017\Projects\EmployeeService\FrenchiseDAccess\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\FARHAN\documents\visual studio 2017\Projects\EmployeeService\FrenchiseDAccess\bin\Debug\EntityFramework.xml
+C:\Users\FARHAN\documents\visual studio 2017\Projects\EmployeeService\FrenchiseDAccess\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\FARHAN\documents\visual studio 2017\Projects\EmployeeService\FrenchiseDAccess\obj\Debug\FrenchiseDAccess.csprojResolveAssemblyReference.cache
+C:\Users\FARHAN\documents\visual studio 2017\Projects\EmployeeService\FrenchiseDAccess\obj\Debug\FrenchiseDAccess.dll
+C:\Users\FARHAN\documents\visual studio 2017\Projects\EmployeeService\FrenchiseDAccess\obj\Debug\FrenchiseDAccess.pdb

@@ -1,0 +1,10 @@
+C:\Users\FARHAN\documents\visual studio 2017\Projects\EmployeeService\EmpDAccess\bin\Debug\EmpDAccess.dll.config
+C:\Users\FARHAN\documents\visual studio 2017\Projects\EmployeeService\EmpDAccess\bin\Debug\EmpDAccess.dll
+C:\Users\FARHAN\documents\visual studio 2017\Projects\EmployeeService\EmpDAccess\bin\Debug\EmpDAccess.pdb
+C:\Users\FARHAN\documents\visual studio 2017\Projects\EmployeeService\EmpDAccess\bin\Debug\EntityFramework.dll
+C:\Users\FARHAN\documents\visual studio 2017\Projects\EmployeeService\EmpDAccess\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\FARHAN\documents\visual studio 2017\Projects\EmployeeService\EmpDAccess\bin\Debug\EntityFramework.xml
+C:\Users\FARHAN\documents\visual studio 2017\Projects\EmployeeService\EmpDAccess\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\FARHAN\documents\visual studio 2017\Projects\EmployeeService\EmpDAccess\obj\Debug\EmpDAccess.csprojResolveAssemblyReference.cache
+C:\Users\FARHAN\documents\visual studio 2017\Projects\EmployeeService\EmpDAccess\obj\Debug\EmpDAccess.dll
+C:\Users\FARHAN\documents\visual studio 2017\Projects\EmployeeService\EmpDAccess\obj\Debug\EmpDAccess.pdb

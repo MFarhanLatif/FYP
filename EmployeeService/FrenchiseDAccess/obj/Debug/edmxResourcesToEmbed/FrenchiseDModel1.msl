@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="s6finalModelStoreContainer" CdmEntityContainer="s6finalEntities">
+    <EntitySetMapping Name="FrenchiseRegistrations">
+      <EntityTypeMapping TypeName="s6finalModel.FrenchiseRegistration">
+        <MappingFragment StoreEntitySet="FrenchiseRegistration">
+          <ScalarProperty Name="FoId" ColumnName="FoId" />
+          <ScalarProperty Name="FoName" ColumnName="FoName" />
+          <ScalarProperty Name="FoCnic" ColumnName="FoCnic" />
+          <ScalarProperty Name="FoEmail" ColumnName="FoEmail" />
+          <ScalarProperty Name="FoPhone" ColumnName="FoPhone" />
+          <ScalarProperty Name="FoPassword" ColumnName="FoPassword" />
+          <ScalarProperty Name="FoCity" ColumnName="FoCity" />
+          <ScalarProperty Name="FoAddress" ColumnName="FoAddress" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

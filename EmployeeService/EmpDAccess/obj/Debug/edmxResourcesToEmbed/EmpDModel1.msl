@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="s6finalModelStoreContainer" CdmEntityContainer="s6finalEntities">
+    <EntitySetMapping Name="EmpRegistrations">
+      <EntityTypeMapping TypeName="s6finalModel.EmpRegistration">
+        <MappingFragment StoreEntitySet="EmpRegistration">
+          <ScalarProperty Name="EmpId" ColumnName="EmpId" />
+          <ScalarProperty Name="EmpName" ColumnName="EmpName" />
+          <ScalarProperty Name="EmpCnic" ColumnName="EmpCnic" />
+          <ScalarProperty Name="EmpEmail" ColumnName="EmpEmail" />
+          <ScalarProperty Name="EmpPhone" ColumnName="EmpPhone" />
+          <ScalarProperty Name="EmpPassword" ColumnName="EmpPassword" />
+          <ScalarProperty Name="EmpAddress" ColumnName="EmpAddress" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

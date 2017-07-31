@@ -1,0 +1,10 @@
+C:\Users\FARHAN\documents\visual studio 2017\Projects\EmployeeService\OrderDAccess\bin\Debug\OrderDAccess.dll.config
+C:\Users\FARHAN\documents\visual studio 2017\Projects\EmployeeService\OrderDAccess\bin\Debug\OrderDAccess.dll
+C:\Users\FARHAN\documents\visual studio 2017\Projects\EmployeeService\OrderDAccess\bin\Debug\OrderDAccess.pdb
+C:\Users\FARHAN\documents\visual studio 2017\Projects\EmployeeService\OrderDAccess\bin\Debug\EntityFramework.dll
+C:\Users\FARHAN\documents\visual studio 2017\Projects\EmployeeService\OrderDAccess\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\FARHAN\documents\visual studio 2017\Projects\EmployeeService\OrderDAccess\bin\Debug\EntityFramework.xml
+C:\Users\FARHAN\documents\visual studio 2017\Projects\EmployeeService\OrderDAccess\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\FARHAN\documents\visual studio 2017\Projects\EmployeeService\OrderDAccess\obj\Debug\OrderDAccess.csprojResolveAssemblyReference.cache
+C:\Users\FARHAN\documents\visual studio 2017\Projects\EmployeeService\OrderDAccess\obj\Debug\OrderDAccess.dll
+C:\Users\FARHAN\documents\visual studio 2017\Projects\EmployeeService\OrderDAccess\obj\Debug\OrderDAccess.pdb

@@ -1,0 +1,65 @@
+﻿@model CustDAccess.CustRegistration
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Registration</title>
+</head>
+<body>
+@*using (Html.BeginForm())
+{@*@
+    @Html.ValidationSummary(true, "Registeration Failed, fields.");
+    <div>
+        <fieldset>
+            <legend>Registeration</legend>
+            <div class="editor-label">@Html.LabelFor(u => u.CustName)</div>
+            <div class="editor-field">
+                @Html.TextBoxFor(u => u.CustName)
+                @Html.ValidationMessageFor(u => u.CustName)
+            </div>
+            <div class="editor-label">@Html.LabelFor(u => u.CustCnic)</div>
+            <div class="editor-field">
+                @Html.TextBoxFor(u => u.CustCnic)
+                @Html.ValidationMessageFor(u => u.CustCnic)
+            </div>
+            <div class="editor-label">@Html.LabelFor(u => u.CustEmail)</div>
+            <div class="editor-field">
+                @Html.TextBoxFor(u => u.CustEmail)
+                @Html.ValidationMessageFor(u => u.CustEmail)
+            </div>
+            <div class="editor-label">@Html.LabelFor(u => u.CustPhone)</div>
+            <div class="editor-field">
+                @Html.TextBoxFor(u => u.CustPhone)
+                @Html.ValidationMessageFor(u => u.CustPhone)
+            </div>
+
+            <div class="editor-label">@Html.LabelFor(u => u.CustPassword)</div>
+            <div class="editor-field">
+                @Html.PasswordFor(u => u.CustPassword)
+                @Html.ValidationMessageFor(u => u.CustPassword)
+            </div>
+
+            <div class="editor-label">@Html.LabelFor(u => u.CustAddress)</div>
+            <div class="editor-field">
+                @Html.TextBoxFor(u => u.CustAddress)
+                @Html.ValidationMessageFor(u => u.CustAddress)
+            </div>
+
+         
+
+
+            <input type="submit" value="Register" />
+        </fieldset>
+    </div>
+
+
+    <div> 
+    </div>
+</body>
+</html>

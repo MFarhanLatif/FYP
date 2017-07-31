@@ -1,0 +1,10 @@
+C:\Users\FARHAN\documents\visual studio 2017\Projects\EmployeeService\AdmenStoreDAccess\bin\Debug\AdmenStoreDAccess.dll.config
+C:\Users\FARHAN\documents\visual studio 2017\Projects\EmployeeService\AdmenStoreDAccess\bin\Debug\AdmenStoreDAccess.dll
+C:\Users\FARHAN\documents\visual studio 2017\Projects\EmployeeService\AdmenStoreDAccess\bin\Debug\AdmenStoreDAccess.pdb
+C:\Users\FARHAN\documents\visual studio 2017\Projects\EmployeeService\AdmenStoreDAccess\bin\Debug\EntityFramework.dll
+C:\Users\FARHAN\documents\visual studio 2017\Projects\EmployeeService\AdmenStoreDAccess\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\FARHAN\documents\visual studio 2017\Projects\EmployeeService\AdmenStoreDAccess\bin\Debug\EntityFramework.xml
+C:\Users\FARHAN\documents\visual studio 2017\Projects\EmployeeService\AdmenStoreDAccess\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\FARHAN\documents\visual studio 2017\Projects\EmployeeService\AdmenStoreDAccess\obj\Debug\AdmenStoreDAccess.csprojResolveAssemblyReference.cache
+C:\Users\FARHAN\documents\visual studio 2017\Projects\EmployeeService\AdmenStoreDAccess\obj\Debug\AdmenStoreDAccess.dll
+C:\Users\FARHAN\documents\visual studio 2017\Projects\EmployeeService\AdmenStoreDAccess\obj\Debug\AdmenStoreDAccess.pdb

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="s6finalModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Order">
+    <Key>
+      <PropertyRef Name="OrderId" />
+    </Key>
+    <Property Name="OrderId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="VehicleType" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="VehicleNumber" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="ServiceType" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Latitude" Type="decimal" Precision="12" Scale="9" Nullable="false" />
+    <Property Name="Longitude" Type="decimal" Precision="12" Scale="9" Nullable="false" />
+    <Property Name="Discreption" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="CustId" Type="int" Nullable="false" />
+    <Property Name="FoId" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="s6finalModelStoreContainer">
+    <EntitySet Name="Order" EntityType="Self.Order" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

@@ -1,0 +1,10 @@
+C:\Users\FARHAN\documents\visual studio 2017\Projects\EmployeeService\CustDAccess\bin\Debug\CustDAccess.dll.config
+C:\Users\FARHAN\documents\visual studio 2017\Projects\EmployeeService\CustDAccess\bin\Debug\CustDAccess.dll
+C:\Users\FARHAN\documents\visual studio 2017\Projects\EmployeeService\CustDAccess\bin\Debug\CustDAccess.pdb
+C:\Users\FARHAN\documents\visual studio 2017\Projects\EmployeeService\CustDAccess\bin\Debug\EntityFramework.dll
+C:\Users\FARHAN\documents\visual studio 2017\Projects\EmployeeService\CustDAccess\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\FARHAN\documents\visual studio 2017\Projects\EmployeeService\CustDAccess\bin\Debug\EntityFramework.xml
+C:\Users\FARHAN\documents\visual studio 2017\Projects\EmployeeService\CustDAccess\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\FARHAN\documents\visual studio 2017\Projects\EmployeeService\CustDAccess\obj\Debug\CustDAccess.csprojResolveAssemblyReference.cache
+C:\Users\FARHAN\documents\visual studio 2017\Projects\EmployeeService\CustDAccess\obj\Debug\CustDAccess.dll
+C:\Users\FARHAN\documents\visual studio 2017\Projects\EmployeeService\CustDAccess\obj\Debug\CustDAccess.pdb

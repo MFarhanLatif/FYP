@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="s6finalModelStoreContainer" CdmEntityContainer="s6finalEntities">
+    <EntitySetMapping Name="AdmenStores">
+      <EntityTypeMapping TypeName="s6finalModel.AdmenStore">
+        <MappingFragment StoreEntitySet="AdmenStore">
+          <ScalarProperty Name="PId" ColumnName="PId" />
+          <ScalarProperty Name="PName" ColumnName="PName" />
+          <ScalarProperty Name="PType" ColumnName="PType" />
+          <ScalarProperty Name="PQuantity" ColumnName="PQuantity" />
+          <ScalarProperty Name="PCost" ColumnName="PCost" />
+          <ScalarProperty Name="PPrice" ColumnName="PPrice" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

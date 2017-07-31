@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="s6finalModelStoreContainer" CdmEntityContainer="s6finalEntities">
+    <EntitySetMapping Name="Orders">
+      <EntityTypeMapping TypeName="s6finalModel.Order">
+        <MappingFragment StoreEntitySet="Order">
+          <ScalarProperty Name="OrderId" ColumnName="OrderId" />
+          <ScalarProperty Name="VehicleType" ColumnName="VehicleType" />
+          <ScalarProperty Name="VehicleNumber" ColumnName="VehicleNumber" />
+          <ScalarProperty Name="ServiceType" ColumnName="ServiceType" />
+          <ScalarProperty Name="Latitude" ColumnName="Latitude" />
+          <ScalarProperty Name="Longitude" ColumnName="Longitude" />
+          <ScalarProperty Name="Discreption" ColumnName="Discreption" />
+          <ScalarProperty Name="CustId" ColumnName="CustId" />
+          <ScalarProperty Name="FoId" ColumnName="FoId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
