@@ -38,3 +38,23 @@ C:\Users\FARHAN\OneDrive\Final6s\Final6s\bin\Microsoft.CodeDom.Providers.DotNetC
 C:\Users\FARHAN\OneDrive\Final6s\Final6s\obj\Debug\Final6s.csprojResolveAssemblyReference.cache
 C:\Users\FARHAN\OneDrive\Final6s\Final6s\obj\Debug\Final6s.dll
 C:\Users\FARHAN\OneDrive\Final6s\Final6s\obj\Debug\Final6s.pdb
+E:\Study\web projects\github_fyp\FYP\Final6s\Final6s\bin\roslyn\csc.exe
+E:\Study\web projects\github_fyp\FYP\Final6s\Final6s\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Study\web projects\github_fyp\FYP\Final6s\Final6s\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Study\web projects\github_fyp\FYP\Final6s\Final6s\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Study\web projects\github_fyp\FYP\Final6s\Final6s\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Study\web projects\github_fyp\FYP\Final6s\Final6s\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Study\web projects\github_fyp\FYP\Final6s\Final6s\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Study\web projects\github_fyp\FYP\Final6s\Final6s\bin\roslyn\System.Collections.Immutable.dll
+E:\Study\web projects\github_fyp\FYP\Final6s\Final6s\bin\roslyn\System.Reflection.Metadata.dll
+E:\Study\web projects\github_fyp\FYP\Final6s\Final6s\bin\roslyn\vbc.exe
+E:\Study\web projects\github_fyp\FYP\Final6s\Final6s\bin\roslyn\VBCSCompiler.exe
+E:\Study\web projects\github_fyp\FYP\Final6s\Final6s\bin\roslyn\VBCSCompiler.exe.config
+E:\Study\web projects\github_fyp\FYP\Final6s\Final6s\bin\Final6s.dll.config
+E:\Study\web projects\github_fyp\FYP\Final6s\Final6s\bin\Final6s.dll
+E:\Study\web projects\github_fyp\FYP\Final6s\Final6s\bin\Final6s.pdb
+E:\Study\web projects\github_fyp\FYP\Final6s\Final6s\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Study\web projects\github_fyp\FYP\Final6s\Final6s\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Study\web projects\github_fyp\FYP\Final6s\Final6s\obj\Debug\Final6s.csprojResolveAssemblyReference.cache
+E:\Study\web projects\github_fyp\FYP\Final6s\Final6s\obj\Debug\Final6s.dll
+E:\Study\web projects\github_fyp\FYP\Final6s\Final6s\obj\Debug\Final6s.pdb

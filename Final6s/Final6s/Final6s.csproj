@@ -66,6 +66,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="images\blank.gif" />
     <Content Include="images\images13.jpg" />
     <Content Include="images\images15.jpg" />
     <Content Include="images\images16.jpg" />
@@ -74,6 +75,9 @@
     <Content Include="images\images7.jpg" />
     <Content Include="packages.config" />
     <Content Include="Fim.Master" />
+    <Content Include="AdmenRegistration.aspx" />
+    <Content Include="Order.aspx" />
+    <Content Include="Handler1.ashx" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -110,6 +114,9 @@
     </Compile>
     <Compile Include="Fim.Master.designer.cs">
       <DependentUpon>Fim.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Handler1.ashx.cs">
+      <DependentUpon>Handler1.ashx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="EmpRegistration.aspx.cs">
@@ -181,6 +188,20 @@
     </Compile>
     <Compile Include="EmpProfile.aspx.designer.cs">
       <DependentUpon>EmpProfile.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdmenRegistration.aspx.cs">
+      <DependentUpon>AdmenRegistration.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdmenRegistration.aspx.designer.cs">
+      <DependentUpon>AdmenRegistration.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Order.aspx.cs">
+      <DependentUpon>Order.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Order.aspx.designer.cs">
+      <DependentUpon>Order.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <PropertyGroup>

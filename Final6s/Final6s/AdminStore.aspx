@@ -57,12 +57,14 @@
             <td class="auto-style3">
                 <asp:Button ID="AddAsp" runat="server"  Text="Add" Width="99px" OnClick="AddAsp_Click" ValidationGroup="add"  />
                 <asp:Button ID="EditAsp" runat="server" Text="Edit" Width="98px" ValidationGroup="add" />
-                <asp:Button ID="DeletAvsp" runat="server" Text="Delete" Width="91px" />
+                <asp:Button ID="DeletAvsp" runat="server" Text="Delete" Width="91px" ValidationGroup="delete" OnClick="DeletAvsp_Click" />
             </td>
             <td>&nbsp;</td>
         </tr>
         <tr>
             <td class="auto-style3">
+               
+                <asp:TextBox ID="DPId" runat="server" placeholder="Enter PId to Delete Product" ValidationGroup="delete" Width="340px"></asp:TextBox>
                
             </td>
             <td>&nbsp;</td>

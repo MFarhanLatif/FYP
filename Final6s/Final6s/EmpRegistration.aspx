@@ -77,28 +77,31 @@
                 </tr>
                 <tr>
                     <td class="auto-style16">
-                        <asp:TextBox ID="EmpCnic"  Placeholder="Cnic Number" runat="server" Width="210px"></asp:TextBox>
+                        <asp:TextBox ID="EmpCnic"  Placeholder="Cnic Number" runat="server" Width="210px" OnTextChanged="EmpCnic_TextChanged"></asp:TextBox>
                     </td>
                     <td class="auto-style14">
                         <asp:RequiredFieldValidator ID="RequiredFieldValidator4" runat="server" ControlToValidate="EmpCnic" Display="Dynamic" ErrorMessage="?" SetFocusOnError="True" ForeColor="Red" ValidationGroup="signup"></asp:RequiredFieldValidator>
-                        <asp:RegularExpressionValidator ID="RegularExpressionValidator1" runat="server" ControlToValidate="EmpCnic" Display="Dynamic" ErrorMessage="Incorrect Expression" SetFocusOnError="True" ValidationExpression="^/d{5}-\d{7}-\d{1}" ForeColor="Red" ValidationGroup="signup"></asp:RegularExpressionValidator>
+                        <asp:RegularExpressionValidator ID="RegularExpressionValidator1" runat="server" ControlToValidate="EmpCnic" Display="Dynamic" ErrorMessage="Incorrect Expression" SetFocusOnError="True" ValidationExpression="^[0-9+]{5}-[0-9+]{7}-[0-9]{1}$" ForeColor="Red" ValidationGroup="signup"></asp:RegularExpressionValidator>
+                        <asp:Label ID="Label0" runat="server"></asp:Label>
                     </td>
                 </tr>
                 <tr>
                     <td class="auto-style16">
-                        <asp:TextBox ID="EmpEmail"  Placeholder="Email"  runat="server" Width="208px"></asp:TextBox>
+                        <asp:TextBox ID="EmpEmail"  Placeholder="Email"  runat="server" Width="208px" OnTextChanged="EmpEmail_TextChanged"></asp:TextBox>
                     </td>
                     <td class="auto-style14">
                         <asp:RequiredFieldValidator ID="RequiredFieldValidator5" runat="server" ControlToValidate="EmpEmail" Display="Dynamic" ErrorMessage="?" SetFocusOnError="True" ForeColor="Red" ValidationGroup="signup"></asp:RequiredFieldValidator>
                         <asp:RegularExpressionValidator ID="RegularExpressionValidator2" runat="server" ControlToValidate="EmpEmail" Display="Dynamic" ErrorMessage="@_mail.com" ValidationExpression="\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*" ForeColor="Red" ValidationGroup="signup"></asp:RegularExpressionValidator>
+                        <asp:Label ID="Label2" runat="server"></asp:Label>
                     </td>
                 </tr>
                 <tr>
                     <td class="auto-style16">
-                        <asp:TextBox ID="EmpPhone"  Placeholder="Phone Number" runat="server" Width="209px"></asp:TextBox>
+                        <asp:TextBox ID="EmpPhone"  Placeholder="Phone Number" runat="server" Width="209px" OnTextChanged="EmpPhone_TextChanged"></asp:TextBox>
                     </td>
                     <td class="auto-style14">
                         <asp:RequiredFieldValidator ID="RequiredFieldValidator6" runat="server" ControlToValidate="EmpPhone" Display="Dynamic" ErrorMessage="?" SetFocusOnError="True" ForeColor="Red" ValidationGroup="signup"></asp:RequiredFieldValidator>
+                        <asp:Label ID="Label3" runat="server"></asp:Label>
                     </td>
                 </tr>
                 <tr>

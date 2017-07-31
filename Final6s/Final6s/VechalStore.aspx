@@ -48,29 +48,32 @@
             <td>&nbsp;</td>
         </tr>
         <tr>
-            <td class="auto-style3">
+            <td class="auto-style4">
                 <asp:TextBox ID="VspPrice"  Placeholder="Price" runat="server"></asp:TextBox>
                 <asp:RequiredFieldValidator ID="RequiredFieldValidator5" runat="server" ControlToValidate="VspPrice" Display="Dynamic" ErrorMessage="?" ForeColor="Red" SetFocusOnError="True" ValidationGroup="add"></asp:RequiredFieldValidator>
             </td>
-            <td>&nbsp;</td>
+            <td class="auto-style5"></td>
         </tr>
         <tr>
             <td class="auto-style3">
                 <asp:Button ID="Addvsp" runat="server"  Text="Add" Width="99px" OnClick="Addvsp_Click" ValidationGroup="add" />
-                <asp:Button ID="Editvsp" runat="server" Text="Edit" Width="98px" ValidationGroup="add" />
-                <asp:Button ID="Deletevsp" runat="server" Text="Delete" Width="91px" />
+                <asp:Button ID="Editvsp" runat="server" Text="Edit" Width="98px"  />
+                <asp:Button ID="Deletevsp" runat="server"  Text="Delete"  Width="99px" OnClick="Deletevsp_Click" ValidationGroup="Delete" />
             </td>
             <td>&nbsp;</td>
         </tr>
         <tr>
-            <td class="auto-style3">&nbsp;</td>
+            <td class="auto-style3">
+                <asp:TextBox ID="DPId" placeholder="Enter Product Id To Delete" runat="server" Width="287px" ValidationGroup="delete"></asp:TextBox>
+                <asp:RequiredFieldValidator ID="RequiredFieldValidator6" runat="server" Display="Dynamic" ErrorMessage="?" ForeColor="Red" SetFocusOnError="True" ValidationGroup="delete" ControlToValidate="DPId"></asp:RequiredFieldValidator>
+            </td>
             <td>&nbsp;</td>
         </tr>
     </table>
     <table class="auto-style2">
          <tr>
              <td>
-                 <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" DataKeyNames="PId" DataSourceID="SqlDataSource2">
+                 <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" DataKeyNames="PId" DataSourceID="SqlDataSource2" OnSelectedIndexChanged="GridView1_SelectedIndexChanged">
                      <Columns>
                          <asp:BoundField DataField="PId" HeaderText="PId" InsertVisible="False" ReadOnly="True" SortExpression="PId" />
                          <asp:BoundField DataField="PName" HeaderText="PName" SortExpression="PName" />

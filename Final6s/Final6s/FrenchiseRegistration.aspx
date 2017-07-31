@@ -41,16 +41,17 @@
             </td>
             <td>
                 <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ControlToValidate="FoCnic" Display="Dynamic" ErrorMessage="?" ForeColor="Red" SetFocusOnError="True" ValidationGroup="signup"></asp:RequiredFieldValidator>
-                <asp:RegularExpressionValidator ID="RegularExpressionValidator1" runat="server" ControlToValidate="FoCnic" Display="Dynamic" ErrorMessage="Incorrect Expression" ForeColor="Red" SetFocusOnError="True" ValidationExpression="^/d{5}-\d{7}-\d{1}" ValidationGroup="signup"></asp:RegularExpressionValidator>
+                <asp:RegularExpressionValidator ID="RegularExpressionValidator1" runat="server" ControlToValidate="FoCnic" Display="Dynamic" ErrorMessage="Incorrect Expression" ForeColor="Red" SetFocusOnError="True" ValidationExpression="^[0-9+]{5}-[0-9+]{7}-[0-9]{1}$" ValidationGroup="signup"></asp:RegularExpressionValidator>
             </td>
         </tr>
         <tr>
             <td class="auto-style3">
-                <asp:TextBox ID="FoEmail" Placeholder="Email" runat="server"></asp:TextBox>
+                <asp:TextBox ID="FoEmail" Placeholder="Email" runat="server" OnTextChanged="FoEmail_TextChanged"></asp:TextBox>
             </td>
             <td>
                 <asp:RequiredFieldValidator ID="RequiredFieldValidator3" runat="server" ControlToValidate="FoEmail" Display="Dynamic" ErrorMessage="?" ForeColor="Red" SetFocusOnError="True" ValidationGroup="signup"></asp:RequiredFieldValidator>
                 <asp:RegularExpressionValidator ID="RegularExpressionValidator2" runat="server" ControlToValidate="FoEmail" Display="Dynamic" ErrorMessage="@_mail.com" ForeColor="Red" SetFocusOnError="True" ValidationExpression="\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*" ValidationGroup="signup"></asp:RegularExpressionValidator>
+                <asp:Label ID="Label2" runat="server"></asp:Label>
             </td>
         </tr>
         <tr>

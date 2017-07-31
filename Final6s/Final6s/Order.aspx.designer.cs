@@ -10,69 +10,87 @@
 namespace Final6s {
     
     
-    public partial class WebForm9 {
+    public partial class WebForm12 {
         
         /// <summary>
-        /// CustLogout control.
+        /// VehicleType control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button CustLogout;
+        protected global::System.Web.UI.WebControls.TextBox VehicleType;
         
         /// <summary>
-        /// Custorder control.
+        /// SessionIdValue control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Custorder;
+        protected global::System.Web.UI.WebControls.Label SessionIdValue;
         
         /// <summary>
-        /// lblSessionValue control.
+        /// VehicleNumber control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblSessionValue;
+        protected global::System.Web.UI.WebControls.TextBox VehicleNumber;
         
         /// <summary>
-        /// FileUpload1 control.
+        /// SessionId control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.FileUpload FileUpload1;
+        protected global::System.Web.UI.WebControls.Label SessionId;
         
         /// <summary>
-        /// Button1 control.
+        /// ServiceType control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button1;
+        protected global::System.Web.UI.WebControls.TextBox ServiceType;
         
         /// <summary>
-        /// Label1 control.
+        /// Latituade control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label1;
+        protected global::System.Web.UI.WebControls.TextBox Latituade;
         
         /// <summary>
-        /// GridView1 control.
+        /// Longituade control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.GridView GridView1;
+        protected global::System.Web.UI.WebControls.TextBox Longituade;
+        
+        /// <summary>
+        /// Discreption control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox Discreption;
+        
+        /// <summary>
+        /// Order control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button Order;
     }
 }

@@ -32,7 +32,7 @@ namespace Final6s
         {
 
             con.Open();
-            string query = "SELECT [CustEmail],[CustPassword] FROM [dbo].[CustRegistration] where [CustEmail] ='" + UserName.Text + "' and [CustPassword]='" + Password.Text + "'";
+            string query = "SELECT * FROM [dbo].[CustRegistration] where [CustEmail] ='" + UserName.Text + "' and [CustPassword]='" + Password.Text + "' ";
             SqlCommand cmd = new SqlCommand(query, con);
             try
             {
@@ -40,8 +40,16 @@ namespace Final6s
                 if (sdr.Read())
                 {
                     Session["CustEmail"] = UserName.Text;
+                   
+                   
+                   //// Session["CustId"] = Convert.ToString("@CustId");
+                    
 
-                    Response.Redirect("CustProfile.aspx");
+
+
+
+
+                    Response.Redirect("CustProfile.aspx",true);
                 }
                 else
                 {
@@ -55,5 +63,89 @@ namespace Final6s
             }
 
             }
+
+        protected void CustEmail_TextChanged(object sender, EventArgs e)
+        {
+
+            if (!string.IsNullOrEmpty(CustEmail.Text))
+            {
+                con.Open();
+                SqlCommand cmd = new SqlCommand("select * from CustRegistration where CustEmail=@CustEmail", con);
+
+                cmd.Parameters.AddWithValue("@CustEmail", CustEmail.Text);
+                SqlDataReader sdr = cmd.ExecuteReader();
+
+                if (sdr.HasRows)
+                {
+                    Label2.Text = "Email Already Exist";
+                    Label2.ForeColor = System.Drawing.Color.Red;
+
+                }
+                else
+                {
+                    Label2.Text = null;
+
+
+                }
+                con.Close();
+            }
         }
+
+        protected void CustCnic_TextChanged(object sender, EventArgs e)
+        {
+
+            if (!string.IsNullOrEmpty(CustCnic.Text))
+            {
+                con.Open();
+                SqlCommand cmd = new SqlCommand("select * from CustRegistration where CustCnic=@CustCnic", con);
+
+                cmd.Parameters.AddWithValue("@CustCnic", CustCnic.Text);
+                SqlDataReader sdr = cmd.ExecuteReader();
+
+                if (sdr.HasRows)
+                {
+                    Label0.Text = " Cnic can't use";
+                    Label0.ForeColor = System.Drawing.Color.Red;
+
+                }
+                else
+                {
+                    Label0.Text = null;
+
+
+                }
+                con.Close();
+            }
+
+        }
+
+        protected void CustPhone_TextChanged(object sender, EventArgs e)
+        {
+
+            if (!string.IsNullOrEmpty(CustPhone.Text))
+            {
+                con.Open();
+                SqlCommand cmd = new SqlCommand("select * from CustRegistration where CustPhone=@CustPhone", con);
+
+                cmd.Parameters.AddWithValue("@CustPhone", CustPhone.Text);
+                SqlDataReader sdr = cmd.ExecuteReader();
+
+                if (sdr.HasRows)
+                {
+                    Label3.Text = " Phone# is Already Exist";
+                    Label3.ForeColor = System.Drawing.Color.Red;
+
+                }
+                else
+                {
+                    Label3.Text = null;
+
+
+                }
+                con.Close();
+            }
+
+
+        }
+    }
     }

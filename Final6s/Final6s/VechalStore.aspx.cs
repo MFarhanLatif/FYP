@@ -36,5 +36,30 @@ namespace Final6s
                 throw ex;
             }
         }
+
+        protected void Deletevsp_Click(object sender, EventArgs e)
+        {
+            con.Open();
+            string q = "delete  from [dbo].[VechalStore] where PId ='" + DPId.Text + "'";
+            SqlCommand com = new SqlCommand(q, con);
+
+            try
+            {
+
+
+
+                com.ExecuteNonQuery();
+                con.Close();
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+
+        protected void GridView1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

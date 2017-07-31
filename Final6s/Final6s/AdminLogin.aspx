@@ -28,9 +28,13 @@
         </td>
     </tr>
     <tr>
-        <td class="auto-style3">&nbsp;</td>
+        <td class="auto-style3">
+                                
+            <asp:Label ID="Label1" runat="server"></asp:Label>
+                                
+        </td>
         <td>
-            <asp:Button ID="Adminlogin" runat="server" Height="33px" Text="Login" Width="82px" ValidationGroup="login" />
+            <asp:Button ID="Adminlogin" runat="server" Height="33px" Text="Login" Width="82px" ValidationGroup="login" OnClick="Adminlogin_Click" />
         </td>
     </tr>
 </table>
